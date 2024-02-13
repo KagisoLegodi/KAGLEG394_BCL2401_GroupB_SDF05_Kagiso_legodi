@@ -1,0 +1,12 @@
+.heading {
+    color: darkblue;
+    font-size: 15px;
+    transition: all 0.5s ease;  /* Applys a transition effect to all properties over a 0.5 seconds duration with an 'ease' timing function */
+}
+
+.heading:hover {      /* pseudo class */  
+    color: green;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+/* The transition property ensures that these style changes in color and size occur smoothly over a duration of 0.5 seconds with an ease timing function. */
